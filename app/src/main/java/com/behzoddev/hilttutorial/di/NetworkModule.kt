@@ -52,4 +52,5 @@ object NetworkModule {
     fun provideLoggingInterceptor() = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
     }
+
 }
