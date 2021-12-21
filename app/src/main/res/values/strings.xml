@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HiltTutorial</string>
+    <string name="tv_likes">Likes:</string>
+    <string name="tv_comments">Comments:</string>
+    <string name="tv_pulse">Pulse:</string>
+    <string name="tv_viewed">Viewed</string>
+    <string name="tv_title">Title:</string>
+    <string name="tv_description">Description:</string>
+    <string name="tv_posted">Posted:</string>
+    <string name="tv_who">Who:</string>
 </resources>
