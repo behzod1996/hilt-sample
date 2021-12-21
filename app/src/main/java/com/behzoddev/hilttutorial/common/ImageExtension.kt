@@ -3,6 +3,7 @@ package com.behzoddev.hilttutorial.common
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import androidx.annotation.NonNull
+import androidx.appcompat.content.res.AppCompatResources
 import com.behzoddev.hilttutorial.R
 import com.squareup.picasso.Picasso
 
@@ -16,4 +17,8 @@ fun ImageView.loadUrl(
         .placeholder(placeHolder)
         .error(error)
         .into(this)
+}
+
+fun ImageView.loadImage(url: String) {
+    this.loadUrl(url)
 }
