@@ -5,7 +5,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class PhotoDetails(
-    val url: String?,
+    val url: String,
     val description: String?,
     val votesCount: Int?,
     val comments: Int?,

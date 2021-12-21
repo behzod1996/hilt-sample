@@ -5,3 +5,4 @@ sealed class Resource<out T: Any> {
     data class OnLoading(val isLoading: Boolean) : Resource<Nothing>()
     data class OnFailure(val throwable: Throwable) : Resource<Nothing>()
 }
+
